@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiaoshihua.thinkpad.uitest.OtherActivity">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单击我"/>
+
+    <EditText
+        android:id="@+id/edit_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <Button
+       android:id="@+id/json解析"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="json解析" />
+    <EditText
+        android:id="@+id/json1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/jsonBean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jsonBean"
+        />
+    <EditText
+        android:id="@+id/json2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

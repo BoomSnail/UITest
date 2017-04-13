@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books >
+
+    <book
+        price="109.0"
+        出版日期="2008年">疯狂java讲义
+    </book>
+    <book
+        price="108.0"
+        出版日期="2008年">轻量级java
+    </book>
+    <book
+        price="107.0"
+        出版日期="2008年">轻量级android
+    </book>
+
+</books>
