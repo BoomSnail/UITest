@@ -6,6 +6,7 @@ package com.xiaoshihua.thinkpad.uitest;
 public class Cat {
     private String name;
     private int age;
+    private int size;
 
     public Cat() {
     }
@@ -13,6 +14,14 @@ public class Cat {
     public Cat(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
     }
 
     public String getName() {
